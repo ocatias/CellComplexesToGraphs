@@ -1,0 +1,36 @@
+program: experiments/ogb/main_pyg.py
+method: bayes
+command:
+- ${env}
+- /home/fjogl/miniconda3/envs/iclr22/bin/python
+- ${program}
+- ${args}
+metric:
+  name: Final/Val-rocauc
+  goal: maximize
+parameters:
+  gnn:
+    values: [gin-virtual]
+  dataset:
+    value: ogbg-molhiv
+  epochs:
+    value: 100
+  batch_size:
+    values: [128, 64, 32]
+  emb_dim:
+    values: [32, 64, 128, 300, 512, 1024]
+  drop_ratio:
+    values: [0, 0.5]
+  dim_pooling:
+    values: [0,1]
+  num_layer:
+    values: [2,3,4,5]
+  max_struct_size:
+    values: [6, 8, 18]
+  aggr_edge_atr:
+    values: [0,1]
+  aggr_vertex_feat:
+    values: [0,1]
+  lr:
+    values: [0.01, 0.001, 0.0001, 0.0005, 0.00001]
+

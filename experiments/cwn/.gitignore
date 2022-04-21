@@ -1,12 +1,9 @@
-venv/
-datasets/
-wandb/
-results/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+*.DS_Store
 
 # C extensions
 *.so
@@ -132,3 +129,36 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# PyCharm
+.idea/
+.vscode/
+
+
+*.gz
+exp/results/
+*.pt
+
+datasets/NCI109/tests_train_split.txt
+datasets/NCI109/tests_val_split.txt
+datasets/NCI109/raw/NCI109_graph_list_degree_as_tag_False.pkl
+datasets/NCI109/raw/NCI109.mat
+datasets/NCI109/raw/NCI109.txt
+datasets/NCI109/raw/10fold_idx/test_idx-1.txt
+datasets/NCI109/raw/10fold_idx/test_idx-2.txt
+datasets/NCI109/raw/10fold_idx/test_idx-3.txt
+datasets/NCI109/raw/10fold_idx/test_idx-4.txt
+datasets/NCI109/raw/10fold_idx/test_idx-5.txt
+datasets/NCI109/raw/10fold_idx/test_idx-6.txt
+datasets/NCI109/raw/10fold_idx/test_idx-7.txt
+datasets/NCI109/raw/10fold_idx/test_idx-8.txt
+datasets/NCI109/raw/10fold_idx/test_idx-9.txt
+datasets/NCI109/raw/10fold_idx/test_idx-10.txt
+datasets/NCI109/raw/10fold_idx/train_idx-1.txt
+datasets/NCI109/raw/10fold_idx/train_idx-2.txt
+datasets/NCI109/raw/10fold_idx/train_idx-3.txt
+datasets/NCI109/raw/10fold_idx/train_idx-4.txt
+datasets/NCI109/raw/10fold_idx/train_idx-5.txt
+datasets/NCI109/raw/10fold_idx/train_idx-6.txt
+datasets/NCI109/raw/10fold_idx/train_idx-7.txt
+datasets/NCI109/raw/10fold_idx/train_idx-10.txt

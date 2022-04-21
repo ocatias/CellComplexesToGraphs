@@ -1,0 +1,11 @@
+# There seems to be a bug with the standard pyyaml version
+# Using this version fixes it (https://stackoverflow.com/a/69565230/6515970)
+pyyaml==5.4.1
+gudhi
+networkx
+matplotlib
+wheel
+wandb
+ogb
+grakel
+scikit-learn

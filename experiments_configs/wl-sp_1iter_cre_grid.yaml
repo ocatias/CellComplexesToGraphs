@@ -1,0 +1,6 @@
+base_kernel: ["WL-SP"]
+wl_iter: [1]
+max_struct_size: [6, 8, 10]
+rings: [1]
+aggr_vertex_feat: [0, 1]
+explicit_pattern_enc: [0,1]
