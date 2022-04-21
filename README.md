@@ -15,7 +15,7 @@ We recommend the use of conda, as that makes the installation of graph-tool very
 Note that you need a WandB account to run any experiments that make use of Bayesian optimization.
 
 ## Getting started
-First activate the environment  `conda activate myenv` and add the code directory to the paths variable `set PYTHONPATH=$PathTo\ICLR22_Workshop_Code` where $PathTo is the path to the directory containing this repository.
+First activate the environment  `conda activate myenv` and add the code directory to the paths variable `set PYTHONPATH=$PathTo/CellComplexesToGraphs` where $PathTo is the path to the directory containing this repository.
 
 ### Experiments on NCI1, NCI109 and Proteins
 Note that for every wandb sweep you run you need to tweak the .yaml file to point towards your python executable, for example replacing `/home/.../miniconda3/envs/my_env/bin/python` by the path to your python binary.
